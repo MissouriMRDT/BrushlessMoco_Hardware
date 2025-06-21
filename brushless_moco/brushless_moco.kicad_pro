@@ -447,7 +447,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "brushless_moco_symbols"
+    ]
   },
   "meta": {
     "filename": "brushless_moco.kicad_pro",

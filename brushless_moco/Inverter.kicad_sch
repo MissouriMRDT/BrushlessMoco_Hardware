@@ -4,5 +4,743 @@
 	(generator_version "9.0")
 	(uuid "d3e0d890-b2df-4770-a508-e4b88034fed5")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "brushless_moco_symbols:IGC019S06S1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q?"
+				(at 10.16 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IGC019S06S1"
+				(at 10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CoolGaN E-Mode Transistor"
+				(at 4.826 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IGC019S06S1_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.032 -4.826)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 -4.572) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 4.572 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 90)
+					(length 5.08)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 90)
+					(length 5.08)
+					(name "S2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 90)
+					(length 5.08)
+					(name "S3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC019S06S1")
+		(at 190.5 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "719365f8-0719-4aa7-8aeb-5acb5e6cfda7")
+		(property "Reference" "Q3"
+			(at 196.85 78.9939 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC019S06S1"
+			(at 196.85 81.5339 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 195.326 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a7248230-a714-44d9-a662-5f8b652c5a4a")
+		)
+		(pin "2"
+			(uuid "6ce80b26-cc08-456c-ad3e-5a51b0664740")
+		)
+		(pin "6"
+			(uuid "24d323e9-f615-4129-bbcc-cb873e08565b")
+		)
+		(pin "5"
+			(uuid "3df906f5-c8ae-47d1-be15-ae617c3984cc")
+		)
+		(pin "4"
+			(uuid "3f5b9aab-116e-4868-942e-ce83cc404b33")
+		)
+		(pin "1"
+			(uuid "6c6764d4-eb75-44dd-bc22-c4c06eba6b8b")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC019S06S1")
+		(at 152.4 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b814c0a-9a7f-4dbe-8f54-95b60710152b")
+		(property "Reference" "Q2"
+			(at 158.75 78.9939 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC019S06S1"
+			(at 158.75 81.5339 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 157.226 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e441941f-c693-4382-87df-1d4e46a58bae")
+		)
+		(pin "2"
+			(uuid "69a5b7ca-b194-4452-bae1-f5adba1ca55e")
+		)
+		(pin "6"
+			(uuid "3d453b3d-53f8-4b2f-8324-03a5cbd39a1e")
+		)
+		(pin "5"
+			(uuid "c2913ebe-d7b7-4add-84e6-a5f512372c1f")
+		)
+		(pin "4"
+			(uuid "839bec87-323d-4231-a3ca-4e533f13b8f6")
+		)
+		(pin "1"
+			(uuid "00e49654-13e4-42c4-96ea-79e28d1bf656")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC019S06S1")
+		(at 190.5 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93457134-ad33-4495-813b-cff677172255")
+		(property "Reference" "Q6"
+			(at 196.85 114.5539 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC019S06S1"
+			(at 196.85 117.0939 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 195.326 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bbdd5c59-fe89-4fcb-9168-73543d633ce6")
+		)
+		(pin "2"
+			(uuid "4a8dd9a5-fbf4-4d32-b20f-0e4d14c6a3b7")
+		)
+		(pin "6"
+			(uuid "76283b68-9eab-4415-afe4-5784128509ef")
+		)
+		(pin "5"
+			(uuid "cc259db7-3c79-48ad-a0e6-0b0bd3ec5043")
+		)
+		(pin "4"
+			(uuid "7177d1c0-e1dc-479f-89e3-39c281e7d45b")
+		)
+		(pin "1"
+			(uuid "8fa8d106-70c7-4e7d-a7e1-8daea8a81f38")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC019S06S1")
+		(at 153.67 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0740d89-ea47-499b-bc7b-2945fcd0326b")
+		(property "Reference" "Q5"
+			(at 160.02 114.5539 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC019S06S1"
+			(at 160.02 117.0939 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 158.496 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "63465bff-c60c-43ea-8d63-44fe7f3fe669")
+		)
+		(pin "2"
+			(uuid "212f9806-0afe-490f-9b98-e8881fcbf3ca")
+		)
+		(pin "6"
+			(uuid "f4960467-ca4d-4bcb-8db5-a08c93c2d7f3")
+		)
+		(pin "5"
+			(uuid "24d00dac-c88e-4bc0-bef6-8084004d6ef6")
+		)
+		(pin "4"
+			(uuid "57914f67-0468-44cf-9518-a6b751cfbc47")
+		)
+		(pin "1"
+			(uuid "5c7b14e1-5081-4e84-8470-a6ec68bbccc0")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC019S06S1")
+		(at 118.11 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe1c2826-31ee-4768-a000-b3e367d99c68")
+		(property "Reference" "Q4"
+			(at 124.46 114.5539 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC019S06S1"
+			(at 124.46 117.0939 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 122.936 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7d0da0fd-1c34-4716-b339-8adefe88502d")
+		)
+		(pin "2"
+			(uuid "dc1b48d9-8741-45d0-91ba-6d157c4196f8")
+		)
+		(pin "6"
+			(uuid "9da6e24e-fbcc-4ad7-8bfc-3ee16b2197da")
+		)
+		(pin "5"
+			(uuid "a725194e-6e7d-45c7-8411-b1222cf6d30f")
+		)
+		(pin "4"
+			(uuid "e0c68809-854b-4c20-80fd-b808a2406a3d")
+		)
+		(pin "1"
+			(uuid "a3c2ba90-bd53-4c58-a5b4-7d04183ade01")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC019S06S1")
+		(at 118.11 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff45ad30-2a36-4adc-af71-52b92620d8bb")
+		(property "Reference" "Q1"
+			(at 124.46 78.9939 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC019S06S1"
+			(at 124.46 81.5339 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 122.936 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c20a209-a1d6-409f-84cd-3d68fb2309d7")
+		)
+		(pin "2"
+			(uuid "a9bcc977-f432-4655-ae9a-1ed4bef0c807")
+		)
+		(pin "6"
+			(uuid "28bb9241-a7d8-45ed-8e4e-a9f2fcefbc84")
+		)
+		(pin "5"
+			(uuid "dde31afd-2a89-4b3b-993e-1a6f4049cf95")
+		)
+		(pin "4"
+			(uuid "ab05675d-feb5-46f7-a60a-e901efd306e8")
+		)
+		(pin "1"
+			(uuid "44109cb9-bf0c-4704-9a8c-bfb8c560a141")
+		)
+		(instances
+			(project ""
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
