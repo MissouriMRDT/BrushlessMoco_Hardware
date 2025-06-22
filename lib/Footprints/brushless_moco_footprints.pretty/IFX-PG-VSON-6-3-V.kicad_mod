@@ -1,11 +1,11 @@
-(footprint "IFX-PG-TSON-6-2-V"
+(footprint "IFX-PG-VSON-6-3-V"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Original name IFX-PG-VSON-6-3-V\n\nMax Component Height - 1mm")
 	(property "Reference" "${REFERENCE}"
-		(at 3.81 -0.325 0)
+		(at -0.075 -0.325 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "91ee6382-0e53-4674-9154-ea15fc7d0209")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "Comment"
-		(at 3.81 2.2 0)
+		(at 0 1.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5885d460-21bd-4ac6-b2a2-c4ebdc724156")
@@ -481,4 +481,15 @@
 		(uuid "502ca140-0a07-442c-a253-35f090debf1d")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../lib/3D/PG-VSON-6-3_Z8B00189760_V02_3D.stp"
+		(offset
+			(xyz 0 -0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

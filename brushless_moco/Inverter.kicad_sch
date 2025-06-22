@@ -5,7 +5,7 @@
 	(uuid "d3e0d890-b2df-4770-a508-e4b88034fed5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "brushless_moco_symbols:IGC019S06S1"
+		(symbol "brushless_moco_symbols:IGC033S101"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -18,7 +18,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "IGC019S06S1"
+			(property "Value" "IGC033S101"
 				(at 10.16 -5.08 0)
 				(effects
 					(font
@@ -27,7 +27,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "brushless_moco_footprints:IFX-PG-VSON-6-3-V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -36,7 +36,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gallium-nitride/gallium-nitride-transistor/igc033s101/"
 				(at 0 0 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "IGC019S06S1_1_0"
+			(symbol "IGC033S101_1_0"
 				(polyline
 					(pts
 						(xy 0 -2.54) (xy 1.778 -2.54)
@@ -252,345 +252,17 @@
 		)
 	)
 	(symbol
-		(lib_id "brushless_moco_symbols:IGC019S06S1")
-		(at 190.5 77.47 0)
+		(lib_id "brushless_moco_symbols:IGC033S101")
+		(at 184.15 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "719365f8-0719-4aa7-8aeb-5acb5e6cfda7")
-		(property "Reference" "Q3"
-			(at 196.85 78.9939 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IGC019S06S1"
-			(at 196.85 81.5339 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CoolGaN E-Mode Transistor"
-			(at 195.326 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a7248230-a714-44d9-a662-5f8b652c5a4a")
-		)
-		(pin "2"
-			(uuid "6ce80b26-cc08-456c-ad3e-5a51b0664740")
-		)
-		(pin "6"
-			(uuid "24d323e9-f615-4129-bbcc-cb873e08565b")
-		)
-		(pin "5"
-			(uuid "3df906f5-c8ae-47d1-be15-ae617c3984cc")
-		)
-		(pin "4"
-			(uuid "3f5b9aab-116e-4868-942e-ce83cc404b33")
-		)
-		(pin "1"
-			(uuid "6c6764d4-eb75-44dd-bc22-c4c06eba6b8b")
-		)
-		(instances
-			(project "brushless_moco"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "brushless_moco_symbols:IGC019S06S1")
-		(at 152.4 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b814c0a-9a7f-4dbe-8f54-95b60710152b")
-		(property "Reference" "Q2"
-			(at 158.75 78.9939 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IGC019S06S1"
-			(at 158.75 81.5339 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CoolGaN E-Mode Transistor"
-			(at 157.226 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e441941f-c693-4382-87df-1d4e46a58bae")
-		)
-		(pin "2"
-			(uuid "69a5b7ca-b194-4452-bae1-f5adba1ca55e")
-		)
-		(pin "6"
-			(uuid "3d453b3d-53f8-4b2f-8324-03a5cbd39a1e")
-		)
-		(pin "5"
-			(uuid "c2913ebe-d7b7-4add-84e6-a5f512372c1f")
-		)
-		(pin "4"
-			(uuid "839bec87-323d-4231-a3ca-4e533f13b8f6")
-		)
-		(pin "1"
-			(uuid "00e49654-13e4-42c4-96ea-79e28d1bf656")
-		)
-		(instances
-			(project "brushless_moco"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "brushless_moco_symbols:IGC019S06S1")
-		(at 190.5 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93457134-ad33-4495-813b-cff677172255")
-		(property "Reference" "Q6"
-			(at 196.85 114.5539 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IGC019S06S1"
-			(at 196.85 117.0939 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CoolGaN E-Mode Transistor"
-			(at 195.326 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bbdd5c59-fe89-4fcb-9168-73543d633ce6")
-		)
-		(pin "2"
-			(uuid "4a8dd9a5-fbf4-4d32-b20f-0e4d14c6a3b7")
-		)
-		(pin "6"
-			(uuid "76283b68-9eab-4415-afe4-5784128509ef")
-		)
-		(pin "5"
-			(uuid "cc259db7-3c79-48ad-a0e6-0b0bd3ec5043")
-		)
-		(pin "4"
-			(uuid "7177d1c0-e1dc-479f-89e3-39c281e7d45b")
-		)
-		(pin "1"
-			(uuid "8fa8d106-70c7-4e7d-a7e1-8daea8a81f38")
-		)
-		(instances
-			(project "brushless_moco"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "brushless_moco_symbols:IGC019S06S1")
-		(at 153.67 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d0740d89-ea47-499b-bc7b-2945fcd0326b")
-		(property "Reference" "Q5"
-			(at 160.02 114.5539 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IGC019S06S1"
-			(at 160.02 117.0939 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CoolGaN E-Mode Transistor"
-			(at 158.496 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "63465bff-c60c-43ea-8d63-44fe7f3fe669")
-		)
-		(pin "2"
-			(uuid "212f9806-0afe-490f-9b98-e8881fcbf3ca")
-		)
-		(pin "6"
-			(uuid "f4960467-ca4d-4bcb-8db5-a08c93c2d7f3")
-		)
-		(pin "5"
-			(uuid "24d00dac-c88e-4bc0-bef6-8084004d6ef6")
-		)
-		(pin "4"
-			(uuid "57914f67-0468-44cf-9518-a6b751cfbc47")
-		)
-		(pin "1"
-			(uuid "5c7b14e1-5081-4e84-8470-a6ec68bbccc0")
-		)
-		(instances
-			(project "brushless_moco"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "brushless_moco_symbols:IGC019S06S1")
-		(at 118.11 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe1c2826-31ee-4768-a000-b3e367d99c68")
+		(uuid "669137c8-9760-4fe8-baaa-2a8d889e1b6a")
 		(property "Reference" "Q4"
-			(at 124.46 114.5539 0)
+			(at 190.5 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -598,8 +270,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IGC019S06S1"
-			(at 124.46 117.0939 0)
+		(property "Value" "IGC033S101"
+			(at 190.5 113.2839 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -607,8 +279,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 113.03 0)
+		(property "Footprint" "brushless_moco_footprints:IFX-PG-VSON-6-3-V"
+			(at 184.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,8 +288,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 118.11 113.03 0)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gallium-nitride/gallium-nitride-transistor/igc033s101/"
+			(at 184.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -626,7 +298,7 @@
 			)
 		)
 		(property "Description" "CoolGaN E-Mode Transistor"
-			(at 122.936 101.6 0)
+			(at 188.976 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -635,22 +307,22 @@
 			)
 		)
 		(pin "3"
-			(uuid "7d0da0fd-1c34-4716-b339-8adefe88502d")
-		)
-		(pin "2"
-			(uuid "dc1b48d9-8741-45d0-91ba-6d157c4196f8")
+			(uuid "44a2945c-7ae3-4513-95e1-9b57eec94c38")
 		)
 		(pin "6"
-			(uuid "9da6e24e-fbcc-4ad7-8bfc-3ee16b2197da")
-		)
-		(pin "5"
-			(uuid "a725194e-6e7d-45c7-8411-b1222cf6d30f")
+			(uuid "6b32291b-dc77-4cce-a089-d96a1c74bbe6")
 		)
 		(pin "4"
-			(uuid "e0c68809-854b-4c20-80fd-b808a2406a3d")
+			(uuid "e05fe79e-0b60-4ae9-b604-5403ef6e1dcd")
+		)
+		(pin "2"
+			(uuid "ae80c014-6c02-475e-adb5-38decdc8cc92")
 		)
 		(pin "1"
-			(uuid "a3c2ba90-bd53-4c58-a5b4-7d04183ade01")
+			(uuid "473c56cd-6908-47ed-9c70-f0d156a20fa0")
+		)
+		(pin "5"
+			(uuid "854012f9-5025-4487-8f89-9ebd231bd622")
 		)
 		(instances
 			(project "brushless_moco"
@@ -662,17 +334,17 @@
 		)
 	)
 	(symbol
-		(lib_id "brushless_moco_symbols:IGC019S06S1")
-		(at 118.11 77.47 0)
+		(lib_id "brushless_moco_symbols:IGC033S101")
+		(at 147.32 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ff45ad30-2a36-4adc-af71-52b92620d8bb")
-		(property "Reference" "Q1"
-			(at 124.46 78.9939 0)
+		(uuid "6cc56e63-7ea2-4232-97f6-515ecc5fa4a9")
+		(property "Reference" "Q5"
+			(at 153.67 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -680,8 +352,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IGC019S06S1"
-			(at 124.46 81.5339 0)
+		(property "Value" "IGC033S101"
+			(at 153.67 113.2839 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -689,8 +361,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 77.47 0)
+		(property "Footprint" "brushless_moco_footprints:IFX-PG-VSON-6-3-V"
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -698,8 +370,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 118.11 77.47 0)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gallium-nitride/gallium-nitride-transistor/igc033s101/"
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +380,7 @@
 			)
 		)
 		(property "Description" "CoolGaN E-Mode Transistor"
-			(at 122.936 66.04 0)
+			(at 152.146 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,27 +389,355 @@
 			)
 		)
 		(pin "3"
-			(uuid "8c20a209-a1d6-409f-84cd-3d68fb2309d7")
-		)
-		(pin "2"
-			(uuid "a9bcc977-f432-4655-ae9a-1ed4bef0c807")
+			(uuid "4eceffcf-32ec-402b-aef0-9c37cea01832")
 		)
 		(pin "6"
-			(uuid "28bb9241-a7d8-45ed-8e4e-a9f2fcefbc84")
-		)
-		(pin "5"
-			(uuid "dde31afd-2a89-4b3b-993e-1a6f4049cf95")
+			(uuid "901af969-984c-476c-b6ef-964e2a47a484")
 		)
 		(pin "4"
-			(uuid "ab05675d-feb5-46f7-a60a-e901efd306e8")
+			(uuid "e5e7950c-7a33-46d4-a700-3ab0f5bfefba")
+		)
+		(pin "2"
+			(uuid "d7d70ba7-6f76-4673-82d1-43a7088a9b52")
 		)
 		(pin "1"
-			(uuid "44109cb9-bf0c-4704-9a8c-bfb8c560a141")
+			(uuid "1c406a80-7837-48b6-bebd-0d4c80f1d909")
+		)
+		(pin "5"
+			(uuid "98cd6fb4-344a-40e7-b561-0a6e38c9af1b")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC033S101")
+		(at 184.15 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a18de6be-b76d-4aa5-9176-1788d2319a14")
+		(property "Reference" "Q3"
+			(at 190.5 75.1839 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC033S101"
+			(at 190.5 77.7239 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "brushless_moco_footprints:IFX-PG-VSON-6-3-V"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gallium-nitride/gallium-nitride-transistor/igc033s101/"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 188.976 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8903c266-4c5c-4f74-83ff-6475aca2e0f8")
+		)
+		(pin "6"
+			(uuid "9831ddb0-c278-4daa-9919-375b82bfb0a4")
+		)
+		(pin "4"
+			(uuid "33a021af-7dc0-4eda-8b12-08e2c2ebc2d0")
+		)
+		(pin "2"
+			(uuid "9b355223-5519-4c12-ad64-b8f8d167cbf5")
+		)
+		(pin "1"
+			(uuid "ea9eacaa-2576-470f-9b0d-3bfad3552a6a")
+		)
+		(pin "5"
+			(uuid "c4ec19bc-0241-4011-a839-092f5bf22196")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC033S101")
+		(at 110.49 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf48b4a8-ef11-402e-b25c-a49926857a25")
+		(property "Reference" "Q1"
+			(at 116.84 73.9139 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC033S101"
+			(at 116.84 76.4539 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "brushless_moco_footprints:IFX-PG-VSON-6-3-V"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gallium-nitride/gallium-nitride-transistor/igc033s101/"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 115.316 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "39c557b6-aa28-4b51-b2a0-c279df8ee086")
+		)
+		(pin "6"
+			(uuid "948778a4-1e27-4de2-b651-21436c152a25")
+		)
+		(pin "4"
+			(uuid "13456dc4-fa30-477c-be60-6560d5abd5c0")
+		)
+		(pin "2"
+			(uuid "04caa877-e844-4faf-b35d-44d322a9c876")
+		)
+		(pin "1"
+			(uuid "539440b0-3a97-4541-8ee1-a114bb561fa7")
+		)
+		(pin "5"
+			(uuid "4935519b-e371-42c5-88cb-ab8a985c54aa")
 		)
 		(instances
 			(project ""
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC033S101")
+		(at 148.59 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8e74390-4f8b-4979-9adc-00d862952921")
+		(property "Reference" "Q2"
+			(at 154.94 73.9139 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC033S101"
+			(at 154.94 76.4539 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "brushless_moco_footprints:IFX-PG-VSON-6-3-V"
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gallium-nitride/gallium-nitride-transistor/igc033s101/"
+			(at 148.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 153.416 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "67068466-6de6-4a78-9759-1a96156de4a9")
+		)
+		(pin "6"
+			(uuid "12beb848-5214-4a15-a502-2ce30b83f988")
+		)
+		(pin "4"
+			(uuid "1beb0c24-e0ba-4811-a396-f949ff0c3773")
+		)
+		(pin "2"
+			(uuid "0e0de923-c0b9-46e0-8d78-26fdb5de7bb0")
+		)
+		(pin "1"
+			(uuid "2f165a81-2732-4388-aae0-23f2a7e64dbb")
+		)
+		(pin "5"
+			(uuid "566ce9e7-2771-4901-acbf-af1b75074c2d")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "brushless_moco_symbols:IGC033S101")
+		(at 110.49 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff99944d-fa04-4405-80bc-234a484537c3")
+		(property "Reference" "Q6"
+			(at 116.84 109.4739 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IGC033S101"
+			(at 116.84 112.0139 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "brushless_moco_footprints:IFX-PG-VSON-6-3-V"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gallium-nitride/gallium-nitride-transistor/igc033s101/"
+			(at 110.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CoolGaN E-Mode Transistor"
+			(at 115.316 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8c151c19-93db-48b8-bfe0-2546b171b709")
+		)
+		(pin "6"
+			(uuid "8ac04511-8646-4a24-aec1-e075f5309f1e")
+		)
+		(pin "4"
+			(uuid "83d902df-6a05-4f93-8f1b-edb16decf1b5")
+		)
+		(pin "2"
+			(uuid "e1503da8-a7e4-404c-be29-f1f8273aaef7")
+		)
+		(pin "1"
+			(uuid "f5e0627e-53fe-40b1-8250-3b32ef4298b6")
+		)
+		(pin "5"
+			(uuid "40721a61-0a45-43b0-afc4-512fc465c1ae")
+		)
+		(instances
+			(project "brushless_moco"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
