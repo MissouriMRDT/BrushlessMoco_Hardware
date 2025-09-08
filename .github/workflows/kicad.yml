@@ -1,0 +1,5 @@
+on: [push]
+
+jobs:
+    kicad-generate:
+        uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
