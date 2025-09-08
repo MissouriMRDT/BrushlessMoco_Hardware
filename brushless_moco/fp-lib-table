@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "brushless_moco_footprints")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/brushless_moco_hardware/lib/Footprints/brushless_moco_footprints.pretty")(options "")(descr ""))
-)
