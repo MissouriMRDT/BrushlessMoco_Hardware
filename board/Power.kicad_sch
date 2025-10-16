@@ -2415,7 +2415,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "899007df-078a-481f-b701-826aeafbc357")
 		(property "Reference" "#PWR019"
 			(at 43.18 30.48 0)
@@ -2426,12 +2425,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 43.18 21.59 0)
+		(property "Value" "VM"
+			(at 41.656 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2481,7 +2481,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8bd706de-8e77-4841-9b6a-bc9a0289670c")
 		(property "Reference" "#PWR017"
 			(at 31.75 29.21 0)
@@ -2492,12 +2491,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 31.75 20.32 0)
+		(property "Value" "VM"
+			(at 30.48 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2615,7 +2615,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ad56ed63-208e-409d-a4b6-a8f69d42f8e0")
 		(property "Reference" "#PWR07"
 			(at 78.74 29.21 0)
@@ -2626,12 +2625,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 78.74 20.32 0)
+		(property "Value" "VM"
+			(at 77.216 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
