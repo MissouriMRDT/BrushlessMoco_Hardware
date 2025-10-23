@@ -628,7 +628,11 @@
     ],
     [
       "9ba7f673-fd83-4be7-b86a-03ddf33e37d2",
-      "Inverter"
+      "H-Bridges & Current Sense"
+    ],
+    [
+      "d7362136-21d9-4887-9bf6-d218f0370e31",
+      "Interfaces"
     ]
   ],
   "text_variables": {}
