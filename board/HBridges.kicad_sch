@@ -3192,7 +3192,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18 Ω"
 			(at 121.92 39.37 90)
 			(effects
 				(font
@@ -3391,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18 Ω"
 			(at 122.174 59.69 90)
 			(effects
 				(font
@@ -3690,7 +3690,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18 Ω"
 			(at 28.194 59.69 90)
 			(effects
 				(font
@@ -4065,7 +4065,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18 Ω"
 			(at 27.94 39.37 90)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18 Ω"
 			(at 75.184 59.69 90)
 			(effects
 				(font
@@ -4642,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "30 nF"
 			(at 129.794 50.8 90)
 			(effects
 				(font
@@ -5015,8 +5015,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 135.89 73.914 90)
+		(property "Value" "1 mΩ / 1%"
+			(at 133.604 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,8 +5281,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 41.91 73.914 90)
+		(property "Value" "1 mΩ / 1%"
+			(at 39.37 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5348,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "30 nF"
 			(at 82.804 50.8 90)
 			(effects
 				(font
@@ -5894,7 +5894,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "30 nF"
 			(at 35.814 50.8 90)
 			(effects
 				(font
@@ -6292,8 +6292,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 88.9 73.914 90)
+		(property "Value" "1 mΩ / 1%"
+			(at 86.868 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +6426,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "18 Ω"
 			(at 74.93 39.37 90)
 			(effects
 				(font
