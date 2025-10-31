@@ -3815,11 +3815,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "3899f221-1e67-43fb-8d1c-0b6662ce4f09")
 		(property "Reference" "R30"
-			(at 245.11 40.6399 0)
+			(at 243.84 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,8 +3826,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 245.11 43.1799 0)
+		(property "Value" "20 kΩ"
+			(at 243.84 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,10 +3885,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "45d29310-db37-42fa-ba8c-854dfd9b02dd")
 		(property "Reference" "R25"
-			(at 179.07 53.3399 0)
+			(at 170.18 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,8 +3895,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 179.07 55.8799 0)
+		(property "Value" "150 kΩ"
+			(at 167.894 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4130,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20 kΩ"
 			(at 218.44 45.974 90)
 			(effects
 				(font
@@ -4189,11 +4187,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "69e277d4-f9d5-4088-9a68-dcae2e1ef392")
 		(property "Reference" "R35"
-			(at 293.37 40.6399 0)
+			(at 292.354 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,8 +4198,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 293.37 43.1799 0)
+		(property "Value" "20 kΩ"
+			(at 292.354 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4266,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20 kΩ"
 			(at 266.7 45.974 90)
 			(effects
 				(font
@@ -4326,11 +4323,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "6d0c6949-3ec6-4f7c-aad4-607447a31131")
 		(property "Reference" "R21"
-			(at 196.85 40.6399 0)
+			(at 195.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,8 +4334,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 196.85 43.1799 0)
+		(property "Value" "20 kΩ"
+			(at 195.58 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,10 +4559,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a9b97e5-0386-496c-8472-e6b42714fe0a")
 		(property "Reference" "R33"
-			(at 275.59 53.3399 0)
+			(at 267.716 54.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4574,8 +4569,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 275.59 55.8799 0)
+		(property "Value" "150 kΩ"
+			(at 264.414 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,10 +4762,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "897409f0-0169-4d13-84a0-61e5e0d118e0")
 		(property "Reference" "R24"
-			(at 187.96 53.3399 0)
+			(at 186.69 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,8 +4772,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 187.96 55.8799 0)
+		(property "Value" "150 kΩ"
+			(at 185.928 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4837,10 +4831,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9a987f5d-32f1-403b-bb1e-7ec359d0acb8")
 		(property "Reference" "R31"
-			(at 245.11 53.3399 0)
+			(at 243.586 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,8 +4841,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 245.11 55.8799 0)
+		(property "Value" "20 kΩ"
+			(at 243.586 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,10 +5467,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a7fb592a-a889-4a95-b8c7-c185a46b0d03")
 		(property "Reference" "R34"
-			(at 284.48 53.3399 0)
+			(at 283.464 56.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,8 +5477,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 284.48 55.8799 0)
+		(property "Value" "150 kΩ"
+			(at 282.194 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,10 +5536,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9022c0c-efcc-4046-ac33-520f267dc420")
 		(property "Reference" "R28"
-			(at 227.33 53.3399 0)
+			(at 219.202 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5555,8 +5546,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 227.33 55.8799 0)
+		(property "Value" "150 kΩ"
+			(at 215.9 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,10 +5605,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "abc7298f-21f6-4ed5-807d-9d6d96c29e99")
 		(property "Reference" "R23"
-			(at 196.85 53.3399 0)
+			(at 195.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,8 +5615,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 196.85 55.8799 0)
+		(property "Value" "20 kΩ"
+			(at 195.58 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "20 kΩ"
 			(at 170.18 45.974 90)
 			(effects
 				(font
@@ -6484,10 +6474,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e361c267-0843-492e-aa95-4e9b14244541")
 		(property "Reference" "R29"
-			(at 236.22 53.3399 0)
+			(at 234.95 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,8 +6484,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 236.22 55.8799 0)
+		(property "Value" "150 kΩ"
+			(at 234.188 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6554,10 +6543,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f2680ad3-174d-45b8-8a96-5b77182eb042")
 		(property "Reference" "R36"
-			(at 293.37 53.3399 0)
+			(at 291.846 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,8 +6553,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 293.37 55.8799 0)
+		(property "Value" "20 kΩ"
+			(at 291.846 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

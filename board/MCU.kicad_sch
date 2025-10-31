@@ -7230,7 +7230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "48 kΩ"
+		(property "Value" "47 kΩ"
 			(at 203.454 59.944 0)
 			(effects
 				(font
