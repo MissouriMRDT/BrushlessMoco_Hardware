@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9ba7f673-fd83-4be7-b86a-03ddf33e37d2")
-		(property "Sheetname" "H-Bridges & Current Sense"
+		(property "Sheetname" "Half-Bridges & Current Sensing"
 			(at 144.78 95.8084 0)
 			(effects
 				(font
