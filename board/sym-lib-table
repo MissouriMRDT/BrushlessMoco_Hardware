@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "BrushlessMocoBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Symbols/BrushlessMocoBoard.kicad_sym")(options "")(descr ""))
-  (lib (name "TPSM84205")(type "KiCad")(uri "C:/Users/jrsmi/Downloads/KiCADv6/2025-10-02_01-38-54.kicad_sym")(options "")(descr ""))
-  (lib (name "STPS1H100A")(type "KiCad")(uri "C:/Users/jrsmi/Downloads/STPS1H100A/KiCADv6/2025-10-16_00-54-46.kicad_sym")(options "")(descr ""))
+  (lib (name "TPSM84205")(type "KiCad")(uri "C:/Users/jrsmi/Documents/GitHub/BrushlessMoco_Hardware/lib/Symbols/2025-10-02_01-38-54.kicad_sym")(options "")(descr ""))
+  (lib (name "STPS1H100A")(type "KiCad")(uri "C:/Users/jrsmi/Documents/GitHub/BrushlessMoco_Hardware/lib/Symbols/2025-10-16_00-54-46.kicad_sym")(options "")(descr ""))
 )

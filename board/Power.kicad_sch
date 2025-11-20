@@ -1502,8 +1502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VM"
-			(at 30.48 21.59 0)
+		(property "Value" "24 V"
+			(at 29.464 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VM"
+		(property "Value" "24 V"
 			(at 39.116 21.59 0)
 			(effects
 				(font
