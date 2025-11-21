@@ -886,6 +886,136 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Connectors:Molex_SL_03"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Molex_SL_03"
+				(at 1.27 8.89 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOLEX SL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_SL_03_0_1"
+				(rectangle
+					(start 0 7.62)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_SL_03_1_1"
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_Connectors:Molex_SL_04"
 			(pin_names
 				(offset 1.016)
@@ -1506,6 +1636,30 @@
 		(uuid 2477b7ef-bb04-4ee3-89a4-a12ed6df420f)
 	)
 	(rectangle
+		(start 72.39 39.37)
+		(end 114.3 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d81ad9a-87a3-4c2d-8e92-054d0f84d2de)
+	)
+	(rectangle
+		(start 114.3 39.37)
+		(end 168.91 55.88)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d269c14-a638-4cd5-9c81-bd500770fd1b)
+	)
+	(rectangle
 		(start 241.3 12.7)
 		(end 284.48 63.5)
 		(stroke
@@ -1560,6 +1714,26 @@
 			)
 		)
 		(uuid "1a99d3ff-767a-4ff5-ba45-597b26467c2c")
+	)
+	(text "PWM/FWD/RVS Connector"
+		(exclude_from_sim no)
+		(at 142.494 42.672 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "1aee29fa-bdff-43da-bc03-2592aa986bc5")
+	)
+	(text "I2C Connector"
+		(exclude_from_sim no)
+		(at 92.71 43.18 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "40b8090a-c9d6-4bb0-9e5b-20b16dd20916")
 	)
 	(text "CAN Connector"
 		(exclude_from_sim no)
@@ -1624,6 +1798,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1e87b36-02de-4ccc-aad3-0c7461428001")
+	)
+	(wire
+		(pts
+			(xy 256.54 58.42) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02003566-f9e3-4cb3-8e81-a2d895abde73")
 	)
 	(wire
 		(pts
@@ -1697,6 +1881,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 48.26) (xy 88.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236b5fe5-23c1-48b0-9e86-62054538d2d3")
+	)
+	(wire
+		(pts
 			(xy 130.81 30.48) (xy 135.89 30.48)
 		)
 		(stroke
@@ -1744,6 +1938,16 @@
 			(type default)
 		)
 		(uuid "39bce380-cf27-40fd-957e-fa2903115e47")
+	)
+	(wire
+		(pts
+			(xy 256.54 45.72) (xy 259.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be8ca4e-bf32-4862-9715-383cae7fdfb6")
 	)
 	(wire
 		(pts
@@ -1857,6 +2061,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 50.8) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8493e45b-b79c-40b0-91bb-1e044f4f2abe")
+	)
+	(wire
+		(pts
+			(xy 137.16 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d5b861-b754-4c7c-a8e1-cbefccf86548")
+	)
+	(wire
+		(pts
 			(xy 135.89 33.02) (xy 130.81 33.02)
 		)
 		(stroke
@@ -1864,6 +2088,26 @@
 			(type default)
 		)
 		(uuid "8f4de444-d04b-4db3-920b-5ed83138638e")
+	)
+	(wire
+		(pts
+			(xy 256.54 33.02) (xy 259.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14d4422-9166-4f30-ac20-a0f39f78be96")
+	)
+	(wire
+		(pts
+			(xy 137.16 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9db8739-d3e0-47be-9c7e-bb50715de958")
 	)
 	(wire
 		(pts
@@ -1924,6 +2168,16 @@
 			(type default)
 		)
 		(uuid "d2b4f031-906f-4b44-9bf1-5100eb82ee99")
+	)
+	(wire
+		(pts
+			(xy 137.16 53.34) (xy 139.7 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39685e3-f05e-450c-aa6e-10f4e85bf79e")
 	)
 	(wire
 		(pts
@@ -2077,7 +2331,7 @@
 	)
 	(hierarchical_label "PHASE_U"
 		(shape bidirectional)
-		(at 259.08 33.02 180)
+		(at 256.54 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2096,6 +2350,17 @@
 			(justify right)
 		)
 		(uuid "284666b2-9234-4491-a8d3-a7b5dbed6742")
+	)
+	(hierarchical_label "I2C1_SCL"
+		(shape input)
+		(at 86.36 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2bab3ee6-bdd8-469c-9cff-1ae824a6832f")
 	)
 	(hierarchical_label "CAN_TX"
 		(shape input)
@@ -2121,7 +2386,7 @@
 	)
 	(hierarchical_label "PHASE_V"
 		(shape bidirectional)
-		(at 259.08 45.72 180)
+		(at 256.54 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2130,9 +2395,31 @@
 		)
 		(uuid "63306458-f1e8-4a23-978c-a26c308664fb")
 	)
+	(hierarchical_label "I2C1_SDA"
+		(shape bidirectional)
+		(at 86.36 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68ea2b5a-9ee1-4ed7-8c8c-6413d6a873c6")
+	)
+	(hierarchical_label "FWD"
+		(shape output)
+		(at 137.16 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b30b0cd-502a-4b44-bdb2-40f0192279cb")
+	)
 	(hierarchical_label "PHASE_W"
 		(shape bidirectional)
-		(at 259.08 58.42 180)
+		(at 256.54 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2151,6 +2438,28 @@
 			(justify right)
 		)
 		(uuid "925e8de0-a584-4b9e-b1d2-7c11bc8c0004")
+	)
+	(hierarchical_label "PWM"
+		(shape output)
+		(at 137.16 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae594936-5cf3-4f02-af83-b7c1ccd11d01")
+	)
+	(hierarchical_label "RVS"
+		(shape output)
+		(at 137.16 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc2b6edf-4769-4d52-867b-d657751bce1c")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2291,6 +2600,76 @@
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/d7362136-21d9-4887-9bf6-d218f0370e31"
 					(reference "Conn6")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 93.98 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b73d61e-4770-46c7-bece-b02241e00b48")
+		(property "Reference" "Conn7"
+			(at 97.79 48.2599 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 97.79 50.7999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce561e8-bb42-4e62-846e-4950c94d4c1b")
+		)
+		(pin "2"
+			(uuid "44579cd2-e56e-4cb7-8415-fb5f664e80c7")
+		)
+		(instances
+			(project ""
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/d7362136-21d9-4887-9bf6-d218f0370e31"
+					(reference "Conn7")
+					(unit 1)
 				)
 			)
 		)
@@ -3209,6 +3588,79 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/d7362136-21d9-4887-9bf6-d218f0370e31"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_03")
+		(at 144.78 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cae9f2dc-6cf7-4ff9-afb8-537d16efcb46")
+		(property "Reference" "Conn8"
+			(at 148.59 49.5299 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_03"
+			(at 148.59 52.0699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6307a617-5188-4513-8aec-3c6417c04a89")
+		)
+		(pin "3"
+			(uuid "b30b1917-37ab-4bbe-a5b4-40673884e7a0")
+		)
+		(pin "1"
+			(uuid "680d4d24-9406-43d8-9acc-e315f61520e6")
+		)
+		(instances
+			(project ""
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/d7362136-21d9-4887-9bf6-d218f0370e31"
+					(reference "Conn8")
 					(unit 1)
 				)
 			)
