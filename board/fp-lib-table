@@ -4,4 +4,5 @@
   (lib (name "TPSM84205")(type "KiCad")(uri "C:/Users/jrsmi/Downloads/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "STSPIN32G4TR")(type "KiCad")(uri "C:/Users/jrsmi/Downloads/STSPIN32G4TR")(options "")(descr ""))
   (lib (name "STPS1H100A")(type "KiCad")(uri "C:/Users/jrsmi/Downloads/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "BoCoFootprintLibrary")(type "KiCad")(uri "${KIPRJMOD}/BoCoFootprintLibrary.pretty")(options "")(descr ""))
 )
