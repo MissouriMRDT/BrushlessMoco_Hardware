@@ -1589,7 +1589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 15.24 44.45 0)
 			(effects
 				(font
@@ -2623,7 +2623,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 15.24 58.42 0)
 			(effects
 				(font
