@@ -5136,7 +5136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:U1-Z_NCH"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 128.27 31.75 0)
 			(effects
 				(font
@@ -5203,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:DO-35_STM"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -6476,7 +6476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:DO-35_STM"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
 			(at 158.75 41.91 0)
 			(effects
 				(font
@@ -6843,7 +6843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:DO-35_STM"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
 			(at 93.98 86.36 0)
 			(effects
 				(font
@@ -7115,7 +7115,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:U1-Z_NCH"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 63.5 31.75 0)
 			(effects
 				(font
@@ -7452,7 +7452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:DO-35_STM"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
 			(at 93.98 41.91 0)
 			(effects
 				(font
@@ -8456,7 +8456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:DO-35_STM"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
 			(at 29.21 41.91 0)
 			(effects
 				(font
@@ -9290,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:DO-35_STM"
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
 			(at 29.21 86.36 0)
 			(effects
 				(font
@@ -9361,7 +9361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:U1-Z_NCH"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 193.04 31.75 0)
 			(effects
 				(font
