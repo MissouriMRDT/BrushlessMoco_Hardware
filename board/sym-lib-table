@@ -5,4 +5,5 @@
   (lib (name "STPS1H100A")(type "KiCad")(uri "C:/Users/jrsmi/Documents/GitHub/BrushlessMoco_Hardware/lib/Symbols/2025-10-16_00-54-46.kicad_sym")(options "")(descr "")(disabled)(hidden))
   (lib (name "BAT48")(type "KiCad")(uri "C:/Users/jrsmi/Documents/GitHub/BrushlessMoco_Hardware/lib/Symbols/2025-11-21_01-56-40.kicad_sym")(options "")(descr "")(disabled)(hidden))
   (lib (name "BoCoSymbolLibrary")(type "KiCad")(uri "C:/Users/jrsmi/Documents/GitHub/BrushlessMoco_Hardware/lib/BoCoSymbolLibrary.kicad_sym")(options "")(descr ""))
+  (lib (name "25V Cap")(type "KiCad")(uri "C:/Users/jrsmi/OneDrive/Documents/GitHub/BrushlessMoco_Hardware/lib/Symbols/2026-02-05_01-55-31.kicad_sym")(options "")(descr ""))
 )
