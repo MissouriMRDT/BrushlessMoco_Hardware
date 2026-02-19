@@ -6456,7 +6456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 82.2452 97.79 0)
 			(effects
 				(font
@@ -8369,7 +8369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAP_PAN_4X7_PAN"
+		(property "Footprint" "BrushlessMocoBoard:CAP_PAN_4X7_PAN"
 			(at 163.83 73.66 0)
 			(effects
 				(font
@@ -8704,7 +8704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.5752 146.05 0)
 			(effects
 				(font
