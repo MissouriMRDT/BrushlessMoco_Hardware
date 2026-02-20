@@ -5,342 +5,6 @@
 	(uuid "d3e0d890-b2df-4770-a508-e4b88034fed5")
 	(paper "A3")
 	(lib_symbols
-		(symbol "BAT48:BAT48"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "BAT48"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "DO-35_STM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat48.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BAT48"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DO-35_STM"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT48_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 1.905) (xy 3.81 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.27) (xy 3.81 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 6.35 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.27) (xy 4.445 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.905) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BAT48_1_2"
-				(polyline
-					(pts
-						(xy -1.905 3.81) (xy 1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy -1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 6.35) (xy -1.905 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.81) (xy 0 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "BoCoSymbolLibrary:BSC035N10NS5ATMA1"
 			(pin_names
 				(offset 0.254)
@@ -1256,6 +920,282 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2230,12 +2170,6 @@
 		(uuid "b617dd8a-8c92-45bc-a721-11f2f2b5d83f")
 	)
 	(junction
-		(at 255.27 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba3dfb20-988d-4523-8874-6df4d431b14c")
-	)
-	(junction
 		(at 25.4 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2320,6 +2254,12 @@
 		(uuid "f200d752-0604-4733-bcf0-fc68a5ec49e5")
 	)
 	(junction
+		(at 255.27 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f20a5782-91d5-41e2-80c2-49124a2c69e5")
+	)
+	(junction
 		(at 39.37 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2399,6 +2339,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 109.22) (xy 45.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026d62a4-6aa5-4b6c-b77f-3b83f9960cf3")
+	)
+	(wire
+		(pts
 			(xy 228.6 78.74) (xy 252.73 78.74)
 		)
 		(stroke
@@ -2429,13 +2379,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 45.72) (xy 148.59 45.72)
+			(xy 140.97 45.72) (xy 148.59 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05aff1ff-a5c6-47d3-9417-f997f3e3b448")
+		(uuid "054a87e0-674f-4190-831a-1bd47a4ec520")
 	)
 	(wire
 		(pts
@@ -2909,16 +2859,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 45.72) (xy 45.72 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c10c91a-16ce-45db-acba-ac1684f86328")
-	)
-	(wire
-		(pts
 			(xy 91.44 53.34) (xy 92.71 53.34)
 		)
 		(stroke
@@ -2946,6 +2886,16 @@
 			(type default)
 		)
 		(uuid "2db9541f-92ad-44e6-a939-c21269e43a09")
+	)
+	(wire
+		(pts
+			(xy 140.97 109.22) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e297645-5ebc-4ac1-9b28-59c3b05c7d41")
 	)
 	(wire
 		(pts
@@ -3159,6 +3109,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 127) (xy 255.27 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0f5ff6-900c-44cb-8304-53f1605cfa98")
+	)
+	(wire
+		(pts
 			(xy 39.37 160.02) (xy 43.18 160.02)
 		)
 		(stroke
@@ -3216,6 +3176,16 @@
 			(type default)
 		)
 		(uuid "3bd9cc14-f8b3-4c67-a524-d795c6db5035")
+	)
+	(wire
+		(pts
+			(xy 38.1 45.72) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c272781-a6bb-4c33-9f45-331fcb57d160")
 	)
 	(wire
 		(pts
@@ -3286,16 +3256,6 @@
 			(type default)
 		)
 		(uuid "446c4e6b-4cde-4d41-9fdf-5deb01cfb8a3")
-	)
-	(wire
-		(pts
-			(xy 39.37 109.22) (xy 45.72 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "447aadde-dfbb-4420-919f-55ca950d0c87")
 	)
 	(wire
 		(pts
@@ -3559,7 +3519,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 127) (xy 49.53 127)
+			(xy 49.53 127) (xy 54.61 127)
 		)
 		(stroke
 			(width 0)
@@ -3659,16 +3619,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 127) (xy 170.18 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5edc836d-5bc4-4436-b374-da234722d4c0")
-	)
-	(wire
-		(pts
 			(xy 297.18 53.34) (xy 298.45 53.34)
 		)
 		(stroke
@@ -3696,6 +3646,16 @@
 			(type default)
 		)
 		(uuid "620e4aee-5b2a-47a3-8a11-8157d0e1baea")
+	)
+	(wire
+		(pts
+			(xy 243.84 45.72) (xy 251.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6235adcc-f0e7-4dce-88f7-1fadfdda4088")
 	)
 	(wire
 		(pts
@@ -3749,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 45.72) (xy 234.95 45.72)
+			(xy 228.6 45.72) (xy 236.22 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3819,13 +3779,13 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 127) (xy 64.77 127)
+			(xy 162.56 127) (xy 170.18 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "735fecaf-a00b-43a7-9dbd-2c36b3803aac")
+		(uuid "732261c5-bf6b-4566-88d0-51c661a19e2a")
 	)
 	(wire
 		(pts
@@ -3946,6 +3906,16 @@
 			(type default)
 		)
 		(uuid "7c37e38d-08c6-4b5f-971a-b9abc4aa0c1b")
+	)
+	(wire
+		(pts
+			(xy 255.27 127) (xy 257.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c841194-0156-4349-b4d8-12d229d04070")
 	)
 	(wire
 		(pts
@@ -4369,6 +4339,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 127) (xy 64.77 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a406acfa-83c4-419e-a9cb-1739e911d475")
+	)
+	(wire
+		(pts
 			(xy 171.45 170.18) (xy 173.99 170.18)
 		)
 		(stroke
@@ -4399,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 45.72) (xy 29.21 45.72)
+			(xy 22.86 45.72) (xy 30.48 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4479,16 +4459,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 109.22) (xy 251.46 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a9919a-9d0a-4c2c-a7a2-f2320ba21725")
-	)
-	(wire
-		(pts
 			(xy 298.45 95.25) (xy 298.45 92.71)
 		)
 		(stroke
@@ -4499,7 +4469,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 127) (xy 152.4 127)
+			(xy 152.4 127) (xy 157.48 127)
 		)
 		(stroke
 			(width 0)
@@ -4559,7 +4529,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 109.22) (xy 22.86 109.22)
+			(xy 22.86 109.22) (xy 30.48 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4709,16 +4679,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 148.59 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c242adcb-83b4-4cfc-8b8a-73109a1aad5c")
-	)
-	(wire
-		(pts
 			(xy 227.33 58.42) (xy 228.6 58.42)
 		)
 		(stroke
@@ -4839,17 +4799,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 45.72) (xy 251.46 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae9781e-474b-4e8b-b6a5-25e675fe5180")
-	)
-	(wire
-		(pts
-			(xy 234.95 109.22) (xy 228.6 109.22)
+			(xy 228.6 109.22) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5029,7 +4979,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 109.22) (xy 125.73 109.22)
+			(xy 125.73 109.22) (xy 133.35 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5119,6 +5069,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 109.22) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e707ba9b-fa36-4ee6-ba7a-c76fbeb64ad0")
+	)
+	(wire
+		(pts
 			(xy 26.67 170.18) (xy 29.21 170.18)
 		)
 		(stroke
@@ -5149,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 45.72) (xy 132.08 45.72)
+			(xy 125.73 45.72) (xy 133.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5376,16 +5336,6 @@
 			(type default)
 		)
 		(uuid "fec3f17b-0f1a-4e71-abbb-7cb8ad28d6be")
-	)
-	(wire
-		(pts
-			(xy 255.27 127) (xy 255.27 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffa2f2a3-c374-4fb2-8a7a-6962c2e7bb87")
 	)
 	(global_label "Vs_V_Low"
 		(shape output)
@@ -6169,75 +6119,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "075cbbd7-02bc-4f49-a540-439a22301e07")
-		(property "Reference" "R52"
-			(at 162.052 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 162.814 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 160.02 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 160.02 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "165169eb-da90-4223-8b2a-e963f7f81de7")
-		)
-		(pin "2"
-			(uuid "0c8c0b73-9d8f-4feb-837d-721b78a3784f")
-		)
-		(instances
-			(project "BrushlessMocoBoard"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 255.27 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6367,6 +6248,73 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 240.03 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cdf2531-1208-4578-a809-443f84fcf405")
+		(property "Reference" "D8"
+			(at 240.284 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 240.284 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 240.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bb6cd61-afb1-4c67-bfdf-b432ac900c35")
+		)
+		(pin "2"
+			(uuid "43ce3243-244c-4d79-a80a-e6927acf7b5a")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -6791,6 +6739,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 137.16 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0d04d0-00f0-443c-9b7d-3c22b981e2ad")
+		(property "Reference" "D5"
+			(at 136.8425 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 136.8425 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee3a55d6-98e4-4fc5-a850-a9f1915ac01b")
+		)
+		(pin "2"
+			(uuid "c2d08aa7-13e7-4849-9093-03500d835b74")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 34.29 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b7b9616-4af2-412d-a867-bb7276d54d2c")
+		(property "Reference" "D4"
+			(at 34.29 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 34.29 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42cc8779-dfb6-48c2-b6ec-7eea92d7fcbf")
+		)
+		(pin "2"
+			(uuid "5df8ddcd-e3a8-4170-b1b9-a3f01d0fc283")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 143.51 97.79 90)
 		(unit 1)
@@ -6852,75 +6935,6 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 57.15 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "1ebe9996-262e-4243-8bf4-3d96ab113d47")
-		(property "Reference" "R51"
-			(at 59.182 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 59.944 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.15 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 57.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45c84578-5dff-44c5-8383-ec319dc420fd")
-		)
-		(pin "2"
-			(uuid "27234b00-6b0e-4711-8f24-f18e3bb4508c")
-		)
-		(instances
-			(project "BrushlessMocoBoard"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -7057,76 +7071,6 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT48:BAT48")
-		(at 132.08 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28ead7b9-4973-4a91-b6f9-07bf7b2eadba")
-		(property "Reference" "CR3"
-			(at 137.16 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BAT48"
-			(at 137.16 41.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
-			(at 132.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 132.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bffc385-bb86-4abb-be68-0515b858e31d")
-		)
-		(pin "2"
-			(uuid "acb3b620-b094-4e00-a8b6-e948f4e61030")
-		)
-		(instances
-			(project "BrushlessMocoBoard"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -7466,75 +7410,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "39c908fd-550b-4707-9e8b-c02bbd38b13f")
-		(property "Reference" "R53"
-			(at 261.112 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0 Ω"
-			(at 261.874 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 259.08 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 259.08 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49c13acd-996a-4152-b569-1fb54a6f42dd")
-		)
-		(pin "2"
-			(uuid "1f152e46-b870-476a-a5bf-3f905b4a30af")
-		)
-		(instances
-			(project "BrushlessMocoBoard"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 30.48 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7595,75 +7470,6 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT48:BAT48")
-		(at 132.08 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c9567d0-fec2-40a2-96b8-f98b1fbe89a2")
-		(property "Reference" "CR4"
-			(at 136.906 113.284 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BAT48"
-			(at 136.906 115.824 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf0511c6-3e26-4b78-a0c8-9035774a29f0")
-		)
-		(pin "2"
-			(uuid "c5cf49d6-5c57-4577-a1a3-946fff2435fc")
-		)
-		(instances
-			(project "BrushlessMocoBoard"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "CR4")
 					(unit 1)
 				)
 			)
@@ -8341,6 +8147,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 57.15 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6713534b-65e1-41b5-ae23-4c333e19b559")
+		(property "Reference" "NT3"
+			(at 57.15 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 57.15 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 57.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 57.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d9a5c78-e5af-4e79-86ae-9f6c3d96d02a")
+		)
+		(pin "2"
+			(uuid "889946e1-7ef4-456b-9084-9869210a3241")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "BoCoSymbolLibrary:BSC035N10NS5ATMA1")
 		(at 50.8 90.17 0)
 		(unit 1)
@@ -8898,6 +8772,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 34.29 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8140924c-4407-4e10-b2cf-c14197dbcad9")
+		(property "Reference" "D2"
+			(at 33.9725 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 33.9725 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b58d202-a953-48fd-921c-ac6db6b2ed2e")
+		)
+		(pin "2"
+			(uuid "eb071562-1da9-4949-8bfa-bd1c40ee7aee")
+		)
+		(instances
+			(project ""
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 92.71 26.67 0)
 		(unit 1)
@@ -9167,146 +9109,6 @@
 		)
 	)
 	(symbol
-		(lib_id "BAT48:BAT48")
-		(at 29.21 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "964ea410-1a7d-4f09-a063-3c85e2b53a95")
-		(property "Reference" "CR1"
-			(at 34.29 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BAT48"
-			(at 34.29 41.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
-			(at 29.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 29.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56528071-006a-4a75-a0ad-22e171cf937c")
-		)
-		(pin "2"
-			(uuid "4a6489e5-5a97-4f8a-b382-3fa38fe346c0")
-		)
-		(instances
-			(project ""
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "CR1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT48:BAT48")
-		(at 234.95 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c78a4d4-31af-472b-a329-c9e0dfdf11f4")
-		(property "Reference" "CR5"
-			(at 240.03 39.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BAT48"
-			(at 240.03 41.91 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4dfdc6f8-556e-464b-9132-24b37534b08f")
-		)
-		(pin "2"
-			(uuid "c4202ef8-1a65-432a-b974-6014c9b003a2")
-		)
-		(instances
-			(project "BrushlessMocoBoard"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "CR5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BoCoSymbolLibrary:BSC035N10NS5ATMA1")
 		(at 153.67 90.17 0)
 		(unit 1)
@@ -9455,6 +9257,74 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 160.02 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2ab3e7e-dafa-4683-a9d9-64bb17baa4b7")
+		(property "Reference" "NT2"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 160.02 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 160.02 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c415dafd-0c10-4195-866e-b85aeb5b6002")
+		)
+		(pin "2"
+			(uuid "c9e20964-bdfd-4f18-86e6-5f6164409c35")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -9796,52 +9666,50 @@
 		)
 	)
 	(symbol
-		(lib_id "BAT48:BAT48")
-		(at 29.21 109.22 0)
+		(lib_id "Device:D_Schottky")
+		(at 137.16 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b253026d-5336-4bb7-91e1-6dc20c2abbd5")
-		(property "Reference" "CR2"
-			(at 34.036 113.284 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BAT48"
-			(at 34.036 115.824 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
-			(at 29.21 109.22 0)
+		(uuid "b52d8675-d7d4-4cc8-b0e0-c01f9d4dd6a1")
+		(property "Reference" "D7"
+			(at 137.414 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 137.414 115.316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 29.21 109.22 0)
+		(property "Datasheet" "~"
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 29.21 109.22 0)
+		(property "Description" "Schottky diode"
+			(at 137.16 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9850,15 +9718,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "240f55ef-f607-4285-86d8-5f7d767fc059")
+			(uuid "198be1d3-3dec-41af-9590-4d9445c09634")
 		)
 		(pin "2"
-			(uuid "a4d9ced9-be85-427a-92b7-232aa8827cbf")
+			(uuid "ed01dcdd-9881-414e-906f-40943d48d181")
 		)
 		(instances
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "CR2")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -10019,6 +9887,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 240.03 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5fa2324-8349-4f5b-a1b6-2c6ea094bad4")
+		(property "Reference" "D6"
+			(at 239.7125 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 239.7125 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 240.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12b19dd1-03ab-48d2-a519-66159a0eb74d")
+		)
+		(pin "2"
+			(uuid "85b341f9-b109-4f08-8a4f-55651bd2147d")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 49.53 129.54 0)
 		(unit 1)
@@ -10148,75 +10084,6 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT48:BAT48")
-		(at 234.95 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d08752b5-a451-4683-b2d3-dac00e6c4abb")
-		(property "Reference" "CR6"
-			(at 239.776 113.284 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "BAT48"
-			(at 239.776 115.824 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P3.81mm_Vertical_KathodeUp"
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/bat48.pdf"
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f30c2cd3-9249-4416-b81d-2c76e1865e8a")
-		)
-		(pin "2"
-			(uuid "e86b2835-051c-4614-8f1b-c36e4e550177")
-		)
-		(instances
-			(project "BrushlessMocoBoard"
-				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "CR6")
 					(unit 1)
 				)
 			)
@@ -10779,6 +10646,74 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 260.35 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7a64e15-afea-4a45-bfcf-745216ad26f1")
+		(property "Reference" "NT1"
+			(at 260.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 260.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 260.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 260.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7dd5716-19cc-4cb3-968e-045d23224d41")
+		)
+		(pin "2"
+			(uuid "a14d7a3d-8629-4848-bcbb-276b16ab31db")
+		)
+		(instances
+			(project ""
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
