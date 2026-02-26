@@ -67,18 +67,6 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.397 -2.1971) (xy -1.397 2.1971) (xy 2.413 2.1971) (xy 2.413 -2.1971)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "2f104f4a-1ac5-4ff1-bf39-4a0b25a55d60")
-	)
-	(fp_poly
-		(pts
 			(xy -2.2352 -2.1717) (xy -2.2352 0.9017) (xy -2.8194 0.9017) (xy -2.8194 -2.1717)
 		)
 		(stroke
@@ -88,18 +76,6 @@
 		(fill yes)
 		(layer "F.Mask")
 		(uuid "1eb56641-19dd-45c7-9f57-90c70eb35725")
-	)
-	(fp_poly
-		(pts
-			(xy -1.397 -2.1971) (xy -1.397 2.1971) (xy 2.413 2.1971) (xy 2.413 -2.1971)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "e91a3734-6b45-4054-943a-e67a077c2f0a")
 	)
 	(fp_line
 		(start -3.1242 -2.6289)
@@ -268,18 +244,6 @@
 		(fill yes)
 		(layer "F.Paste")
 		(uuid "6ec287f5-84ec-4334-971b-dfb919e635b3")
-	)
-	(fp_poly
-		(pts
-			(xy -1.397 -2.1971) (xy -1.397 2.1971) (xy 2.413 2.1971) (xy 2.413 -2.1971)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "f56e59e2-0505-46af-9bac-85f3850b6b1e")
 	)
 	(fp_poly
 		(pts
@@ -571,29 +535,42 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "53ed4dbf-a9ee-4b20-b1ff-7528c28c2ec0")
 	)
-	(pad "5" smd rect
-		(at 2.8956 1.905)
-		(size 0.9652 0.4318)
+	(pad "5" smd custom
+		(at 2.5781 1.905)
+		(size 1.6002 0.4318)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -3.9751 -4.1021) (xy -3.9751 0.2921) (xy -0.1651 0.2921) (xy -0.1651 -4.1021)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
 		(uuid "e14a32c2-3558-4535-bb71-672d5e0e6601")
 	)
-	(pad "6" smd rect
-		(at 2.8956 0.635)
-		(size 0.9652 0.4318)
+	(pad "5" smd rect
+		(at 2.7051 0.635)
+		(size 1.3462 0.4318)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "43d36bd5-263b-4e4b-8f24-55c34e49174e")
 	)
-	(pad "7" smd rect
-		(at 2.8956 -0.635)
-		(size 0.9652 0.4318)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "90f409b3-9185-4d07-97e2-cb15dad45660")
-	)
-	(pad "8" smd rect
+	(pad "5" smd rect
 		(at 2.8956 -1.905)
 		(size 0.9652 0.4318)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "faaa3a05-ff86-492a-b423-f843b025bd52")
+	)
+	(pad "5" smd rect
+		(at 2.8956 -0.635)
+		(size 0.9652 0.4318)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90f409b3-9185-4d07-97e2-cb15dad45660")
 	)
 	(embedded_fonts no)
 )

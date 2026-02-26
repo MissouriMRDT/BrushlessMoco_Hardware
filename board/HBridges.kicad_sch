@@ -724,60 +724,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 40.64 -7.62 180)
 					(length 7.62)
 					(name "5"
@@ -5989,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "PG-TDSON-8_INF"
 			(at 153.67 50.8 0)
 			(effects
 				(font
@@ -6018,9 +5964,6 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "585baed4-1992-46b0-a01e-8758c519cd58")
-		)
 		(pin "5"
 			(uuid "23f0f0b8-6ad5-47d3-af55-acb9e70e2aaf")
 		)
@@ -6030,17 +5973,11 @@
 		(pin "3"
 			(uuid "dec042a9-a0ab-44ae-9420-c1cef0b7661c")
 		)
-		(pin "8"
-			(uuid "5d12801a-518a-4a45-98d9-8a290c8aaf9e")
-		)
 		(pin "4"
 			(uuid "a4fd146d-1751-425f-b3c9-4057327bf625")
 		)
 		(pin "1"
 			(uuid "b6e364cf-d5b4-4842-8e33-1bfc5c1b6201")
-		)
-		(pin "6"
-			(uuid "b864b1a8-65d7-4d41-b27c-3b037c30cb0c")
 		)
 		(instances
 			(project "BrushlessMocoBoard"
@@ -6676,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "PG-TDSON-8_INF"
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -6705,9 +6642,6 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "cc2639a4-edb8-4d53-957d-ae20b25a2cf8")
-		)
 		(pin "5"
 			(uuid "8f5775e5-31f9-4839-b953-dba059a047eb")
 		)
@@ -6717,17 +6651,11 @@
 		(pin "3"
 			(uuid "0caf06d6-33af-4d56-8e47-eff6d12dfa10")
 		)
-		(pin "8"
-			(uuid "7d54474c-8975-4e5d-ac86-73f91ecaa74c")
-		)
 		(pin "4"
 			(uuid "4cb9c942-bc9e-4ce6-9e9d-e2fe952c8c2e")
 		)
 		(pin "1"
 			(uuid "bf02992c-f07b-44e3-814c-09aac10a166b")
-		)
-		(pin "6"
-			(uuid "e35c66ad-8663-407f-8e6a-c93ac5b851c8")
 		)
 		(instances
 			(project ""
@@ -8239,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "PG-TDSON-8_INF"
 			(at 50.8 90.17 0)
 			(effects
 				(font
@@ -8268,9 +8196,6 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "22205dd4-ea89-4890-a4db-845f5e63b2bb")
-		)
 		(pin "5"
 			(uuid "26e46c32-3336-467c-9839-ebcce58f04ea")
 		)
@@ -8280,17 +8205,11 @@
 		(pin "3"
 			(uuid "262c7fb4-556d-4807-8934-826a5489cb98")
 		)
-		(pin "8"
-			(uuid "fe267396-f419-4e45-8c86-5146d5b6262b")
-		)
 		(pin "4"
 			(uuid "3083fa43-dfc8-44dd-a1ef-99cfc866a1dc")
 		)
 		(pin "1"
 			(uuid "89c074b4-f349-461c-813b-cd3103180af2")
-		)
-		(pin "6"
-			(uuid "a203e092-7b29-420f-b45c-0c782eba5ebd")
 		)
 		(instances
 			(project "BrushlessMocoBoard"
@@ -9133,7 +9052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "PG-TDSON-8_INF"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -9162,9 +9081,6 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "cee261ca-1832-432f-a947-b597bb3fd300")
-		)
 		(pin "5"
 			(uuid "17f0fe50-85d8-4296-a8f9-457d068264fa")
 		)
@@ -9174,17 +9090,11 @@
 		(pin "3"
 			(uuid "065af442-a725-46f0-86b7-c37833d92087")
 		)
-		(pin "8"
-			(uuid "48ec9816-d071-4685-81f9-6d25381cbec0")
-		)
 		(pin "4"
 			(uuid "06d25bd0-183e-494e-9083-dc5896ddbb09")
 		)
 		(pin "1"
 			(uuid "fc944c54-295d-41e9-a103-c5d2b1e51214")
-		)
-		(pin "6"
-			(uuid "43ea10e8-fecd-4cfb-8ec0-f011bcbb17cf")
 		)
 		(instances
 			(project "BrushlessMocoBoard"
@@ -9824,7 +9734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "PG-TDSON-8_INF"
 			(at 256.54 90.17 0)
 			(effects
 				(font
@@ -9853,9 +9763,6 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "55849f1f-0b67-43ee-9b8d-dc751c993701")
-		)
 		(pin "5"
 			(uuid "af7bf9fc-f2bf-417d-8d3e-50f094c16912")
 		)
@@ -9865,17 +9772,11 @@
 		(pin "3"
 			(uuid "620631db-0c2a-4904-98c6-b216c677d4ea")
 		)
-		(pin "8"
-			(uuid "c3a2b423-f2c0-4cbe-82dc-084510dc4c9b")
-		)
 		(pin "4"
 			(uuid "0c62b08e-cb48-4f33-9845-9b626a5cac42")
 		)
 		(pin "1"
 			(uuid "c1991316-dcbe-48a8-9888-61de2efe653a")
-		)
-		(pin "6"
-			(uuid "3ab59065-9344-4c65-9da0-10c37b3c4073")
 		)
 		(instances
 			(project "BrushlessMocoBoard"
@@ -10451,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "PG-TDSON-8_INF"
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -10480,9 +10381,6 @@
 				(hide yes)
 			)
 		)
-		(pin "7"
-			(uuid "5dc0c8fd-2647-4e39-8744-11cc621b594e")
-		)
 		(pin "5"
 			(uuid "e611c3f4-193f-4eac-8f5a-d5842a1f59ff")
 		)
@@ -10492,17 +10390,11 @@
 		(pin "3"
 			(uuid "da8b9c00-c8ff-412a-be30-dfd1b232693f")
 		)
-		(pin "8"
-			(uuid "4b615777-bb59-42b5-a338-8f304af333f0")
-		)
 		(pin "4"
 			(uuid "602d7bc6-79d1-474e-b98f-3c991a8c3e3b")
 		)
 		(pin "1"
 			(uuid "acdbe238-439a-4e4a-8e28-984a45b1a52b")
-		)
-		(pin "6"
-			(uuid "611ee2e2-3bb6-4194-bb56-a518af946262")
 		)
 		(instances
 			(project "BrushlessMocoBoard"
