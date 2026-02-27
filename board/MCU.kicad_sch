@@ -3103,12 +3103,20 @@
 		(uuid "fe7c5480-6102-40a3-bc15-bd6de15a33b6")
 	)
 	(no_connect
+		(at 144.78 157.48)
+		(uuid "0dbcb1ed-33f2-4913-be19-31698f33cb6e")
+	)
+	(no_connect
 		(at 99.06 167.64)
 		(uuid "3a54e6a4-79c4-469b-86c1-5c75d53308dd")
 	)
 	(no_connect
 		(at 99.06 170.18)
 		(uuid "c58edc40-db84-4f69-a62c-242f787d2910")
+	)
+	(no_connect
+		(at 144.78 160.02)
+		(uuid "e9f24458-f8dd-4314-af03-6a29e7620876")
 	)
 	(wire
 		(pts
@@ -7045,7 +7053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80097ef3-f18b-4513-8218-04a0d50987de")
-		(property "Reference" "ERT-J0EG103FA1"
+		(property "Reference" "ERT-J1VG103FA1"
 			(at 191.008 132.334 0)
 			(effects
 				(font
@@ -7063,7 +7071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.452 132.08 90)
 			(effects
 				(font
@@ -7099,7 +7107,7 @@
 		(instances
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/02edeb2f-867a-4e66-ac0c-df2434256428"
-					(reference "ERT-J0EG103FA1")
+					(reference "ERT-J1VG103FA1")
 					(unit 1)
 				)
 			)
