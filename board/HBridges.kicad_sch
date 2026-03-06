@@ -5935,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TDSON-8_INF"
+		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
 			(at 153.67 50.8 0)
 			(effects
 				(font
@@ -6079,7 +6079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 253.492 120.65 90)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TDSON-8_INF"
+		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -8167,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TDSON-8_INF"
+		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
 			(at 50.8 90.17 0)
 			(effects
 				(font
@@ -9052,7 +9052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TDSON-8_INF"
+		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -9330,7 +9330,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 47.752 120.65 90)
 			(effects
 				(font
@@ -9734,7 +9734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TDSON-8_INF"
+		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
 			(at 256.54 90.17 0)
 			(effects
 				(font
@@ -10149,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 150.622 120.65 90)
 			(effects
 				(font
@@ -10352,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PG-TDSON-8_INF"
+		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
 			(at 256.54 50.8 0)
 			(effects
 				(font

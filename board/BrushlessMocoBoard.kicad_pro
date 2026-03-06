@@ -58,7 +58,64 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|58444328|125972489|6e2f4bdc-a25b-485e-8f0f-965411b4766e|e2699a33-a4b2-466a-bd80-c2bc4327b781",
+          ""
+        ],
+        [
+          "clearance|59519328|125972489|a9f94ae9-6d77-471c-b805-bf4bd8d36431|6e2f4bdc-a25b-485e-8f0f-965411b4766e",
+          ""
+        ],
+        [
+          "clearance|63518727|125979984|490b9b86-6608-465e-9460-decd6a0cc348|444fa9cb-3a3e-4063-adf2-df7c8ed134ff",
+          ""
+        ],
+        [
+          "clearance|64593727|125979984|7bfff40f-cca6-45ab-b390-79a459cd5ed4|490b9b86-6608-465e-9460-decd6a0cc348",
+          ""
+        ],
+        [
+          "clearance|68600622|125979984|a991cd46-878c-4e26-b3a5-2e54acb1c172|5e1092ed-cb2f-4f4b-b9c7-7ee04c82113f",
+          ""
+        ],
+        [
+          "clearance|69675622|125979984|c28014e9-1d7f-49ee-bd4d-6c65ff66bf63|a991cd46-878c-4e26-b3a5-2e54acb1c172",
+          ""
+        ],
+        [
+          "clearance|83290750|100568750|bd7d8a18-c1ab-43d6-be55-ff574f9b201d|a131d12a-7234-4555-af0d-be52ca2a7165",
+          ""
+        ],
+        [
+          "clearance|83290750|92491250|2610f638-7135-4073-a28c-a72c39e621d0|621626e5-31f0-432a-b658-963a8dbb8617",
+          ""
+        ],
+        [
+          "clearance|90993250|100568750|fe4267f6-7c24-42c2-be65-1ff77a5409dc|aa9f1f91-42d8-4eda-a22f-aab98751f77d",
+          ""
+        ],
+        [
+          "clearance|91180750|92678750|f6ad9b9a-f9ff-465d-b831-72c54ee3ec2b|26ea2e38-a69f-42da-9c4a-8f4798314049",
+          ""
+        ],
+        [
+          "solder_mask_bridge|83290750|100568750|bd7d8a18-c1ab-43d6-be55-ff574f9b201d|a131d12a-7234-4555-af0d-be52ca2a7165",
+          ""
+        ],
+        [
+          "solder_mask_bridge|83290750|92491250|2610f638-7135-4073-a28c-a72c39e621d0|621626e5-31f0-432a-b658-963a8dbb8617",
+          ""
+        ],
+        [
+          "solder_mask_bridge|90993250|100568750|fe4267f6-7c24-42c2-be65-1ff77a5409dc|aa9f1f91-42d8-4eda-a22f-aab98751f77d",
+          ""
+        ],
+        [
+          "solder_mask_bridge|91180750|92678750|f6ad9b9a-f9ff-465d-b831-72c54ee3ec2b|26ea2e38-a69f-42da-9c4a-8f4798314049",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -491,6 +548,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.128219,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.128219,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.128219,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -502,6 +573,26 @@
       {
         "netclass": "Default",
         "pattern": "GND"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/MCU/CANX+"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/MCU/CANX-"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN+"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "CAN-"
       }
     ]
   },
