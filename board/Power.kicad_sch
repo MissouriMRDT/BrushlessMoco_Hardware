@@ -1447,7 +1447,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5 kΩ"
+		(property "Value" "6.8 kΩ"
 			(at 110.49 24.13 90)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 				)
 			)
 		)
-		(property "Value" "100 Ω"
+		(property "Value" "470 Ω"
 			(at 110.744 44.45 90)
 			(effects
 				(font

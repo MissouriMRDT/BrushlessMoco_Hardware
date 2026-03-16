@@ -5919,7 +5919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04a68138-7a98-41b8-bccf-9135259e364d")
-		(property "Reference" "MOSFET3"
+		(property "Reference" "Q3"
 			(at 173.228 41.402 0)
 			(effects
 				(font
@@ -5982,7 +5982,7 @@
 		(instances
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "MOSFET3")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6597,7 +6597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a0a2d91-3f41-4cf1-86aa-0f3f01510da4")
-		(property "Reference" "MOSFET1"
+		(property "Reference" "Q1"
 			(at 70.358 41.402 0)
 			(effects
 				(font
@@ -6660,7 +6660,7 @@
 		(instances
 			(project ""
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "MOSFET1")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8151,7 +8151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c941e1b-f8b9-47cf-86f3-f38b6429fa40")
-		(property "Reference" "MOSFET2"
+		(property "Reference" "Q2"
 			(at 70.358 104.902 0)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 		(instances
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "MOSFET2")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9036,7 +9036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c9a397c-98f1-4a12-8186-13a8d4dd8c02")
-		(property "Reference" "MOSFET4"
+		(property "Reference" "Q4"
 			(at 173.228 104.902 0)
 			(effects
 				(font
@@ -9099,7 +9099,7 @@
 		(instances
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "MOSFET4")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -9718,7 +9718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5c5621e-bfe8-42f7-8934-d3de29e9f76b")
-		(property "Reference" "MOSFET6"
+		(property "Reference" "Q6"
 			(at 276.098 104.902 0)
 			(effects
 				(font
@@ -9781,7 +9781,7 @@
 		(instances
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "MOSFET6")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -10336,7 +10336,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3c866c6-cc60-4987-9427-bea51b1e1ded")
-		(property "Reference" "MOSFET5"
+		(property "Reference" "Q5"
 			(at 276.098 41.402 0)
 			(effects
 				(font
@@ -10399,7 +10399,7 @@
 		(instances
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/9ba7f673-fd83-4be7-b86a-03ddf33e37d2"
-					(reference "MOSFET5")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
