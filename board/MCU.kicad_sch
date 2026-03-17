@@ -3061,6 +3061,12 @@
 		(uuid "bbc247a9-6f54-4d5d-8c40-5f24d1127052")
 	)
 	(junction
+		(at 151.13 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c087e3-271e-44a6-ab69-f730d7e2bb82")
+	)
+	(junction
 		(at 175.26 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3370,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 151.13 78.74)
+			(xy 151.13 50.8) (xy 151.13 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4060,6 +4066,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 55.88) (xy 162.56 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fee6b82-0b73-4f57-9be1-bc6f55f83a03")
+	)
+	(wire
+		(pts
 			(xy 96.52 152.4) (xy 99.06 152.4)
 		)
 		(stroke
@@ -4280,6 +4296,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 55.88) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5cbbd8d-263f-4abd-90c2-9f0862dbb39d")
+	)
+	(wire
+		(pts
 			(xy 92.71 72.39) (xy 82.55 72.39)
 		)
 		(stroke
@@ -4477,6 +4503,16 @@
 			(type default)
 		)
 		(uuid "cfeb3f86-4315-437d-9737-f27a65aecd6f")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 162.56 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a13df0-863f-4f0b-903a-2b6559d71be2")
 	)
 	(wire
 		(pts
@@ -4737,6 +4773,16 @@
 			(type default)
 		)
 		(uuid "f72be6ce-9a08-447b-b293-b13b9611a780")
+	)
+	(wire
+		(pts
+			(xy 151.13 55.88) (xy 151.13 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cbfbc8-5f68-4114-a08c-3736f8d027de")
 	)
 	(wire
 		(pts
@@ -6249,6 +6295,75 @@
 			(project "BrushlessMocoBoard"
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/02edeb2f-867a-4e66-ac0c-df2434256428"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "262e60ba-c64c-4685-8fce-1391438630a3")
+		(property "Reference" "C2"
+			(at 161.798 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220 nF / 100 V"
+			(at 175.006 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 161.29 54.9148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "461c0c40-6fc0-4b4b-aff1-1b8e510d4e42")
+		)
+		(pin "2"
+			(uuid "69f54af6-5b6d-4588-bea5-6ec2be04f73b")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/02edeb2f-867a-4e66-ac0c-df2434256428"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -8436,6 +8551,71 @@
 			(project ""
 				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/02edeb2f-867a-4e66-ac0c-df2434256428"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3e12ec3-8df7-462f-a0b1-cb08daaf7e02")
+		(property "Reference" "#PWR02"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 164.592 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4d5e3aa-ff05-4c76-9c52-94f9c348105f")
+		)
+		(instances
+			(project "BrushlessMocoBoard"
+				(path "/1ef8bc88-f0df-4a97-862b-c4b9ec3b4ed0/02edeb2f-867a-4e66-ac0c-df2434256428"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
