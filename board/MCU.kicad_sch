@@ -7737,7 +7737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:SMA_STM"
+		(property "Footprint" "BrushlessMocoBoard:SMA_STM"
 			(at 172.72 100.33 0)
 			(effects
 				(font
@@ -8214,7 +8214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STSPIN32G4TR:QFN50P900X900X100-65N"
+		(property "Footprint" "BrushlessMocoBoard:QFN50P900X900X100-65N"
 			(at 121.92 116.84 0)
 			(effects
 				(font

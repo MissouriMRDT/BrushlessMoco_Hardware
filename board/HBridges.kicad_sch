@@ -5935,7 +5935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "BrushlessMocoBoard:PG-TDSON-8_INF"
 			(at 153.67 50.8 0)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "BrushlessMocoBoard:PG-TDSON-8_INF"
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -8167,7 +8167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "BrushlessMocoBoard:PG-TDSON-8_INF"
 			(at 50.8 90.17 0)
 			(effects
 				(font
@@ -9052,7 +9052,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "BrushlessMocoBoard:PG-TDSON-8_INF"
 			(at 153.67 90.17 0)
 			(effects
 				(font
@@ -9734,7 +9734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "BrushlessMocoBoard:PG-TDSON-8_INF"
 			(at 256.54 90.17 0)
 			(effects
 				(font
@@ -10352,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoCoFootprintLibrary:PG-TDSON-8_INF"
+		(property "Footprint" "BrushlessMocoBoard:PG-TDSON-8_INF"
 			(at 256.54 50.8 0)
 			(effects
 				(font
